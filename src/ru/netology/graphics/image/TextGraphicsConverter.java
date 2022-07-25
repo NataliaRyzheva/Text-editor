@@ -1,11 +1,11 @@
 package ru.netology.graphics.image;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 
 public interface TextGraphicsConverter {
     /**
      * Конвертация изображения, переданного как урл, в текстовую графику.
+     *
      * @param url урл изображения
      * @return текст, представляющий собой текстовую графику переданного изображения
      * @throws IOException
